@@ -6792,9 +6792,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="CombineSlow.vi" Type="VI" URL="../CombineSlow.vi"/>
 			<Item Name="ArduinoParse.vi" Type="VI" URL="../ArduinoParse.vi"/>
 			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../../../Documents/modudaq-master(march.new) - Copy/FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
-			<Item Name="CAENHV Get Ch Param Prop Info.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Info.vi"/>
-			<Item Name="CAENHV Set Ch Param Single.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Single.vi"/>
-			<Item Name="CAENHV Set Ch Param Bool.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Bool.vi"/>
+			<Item Name="CAENHV Deinit System.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Deinit System.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
