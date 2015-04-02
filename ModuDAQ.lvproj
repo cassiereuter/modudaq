@@ -299,7 +299,6 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 		<Item Name="PC Streaming Host.vi" Type="VI" URL="../PC Streaming Host.vi"/>
 		<Item Name="PC Streaming Host with slow.vi" Type="VI" URL="../PC Streaming Host with slow.vi"/>
 		<Item Name="Set_shutdown_HV.vi" Type="VI" URL="../CAENHVs/Set_shutdown_HV.vi"/>
-		<Item Name="dispwaveform.vi" Type="VI" URL="../../Version 130208 for (128.210.146.200 and 128.210.146.51)/dispwaveform.vi"/>
 		<Item Name="timestamptest.vi" Type="VI" URL="../timestamptest.vi"/>
 		<Item Name="setNormLUT.vi" Type="VI" URL="../setNormLUT.vi"/>
 		<Item Name="getfracLUT.vi" Type="VI" URL="../getfracLUT.vi"/>
@@ -582,7 +581,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to sixteen analog input channels, eight digital input lines, and eight digital output lines.  This CLIP also contains a SPI interface to program the ADC registers.  
@@ -6760,7 +6759,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 		<Item Name="CAN_HV_subvi_set.vi" Type="VI" URL="../CAENHVs/CAN_HV_subvi_set.vi"/>
 		<Item Name="CAEN_HV_subvi_deinitialize.vi" Type="VI" URL="../CAENHVs/CAEN_HV_subvi_deinitialize.vi"/>
 		<Item Name="hv cluster control.ctl" Type="VI" URL="../hv cluster control.ctl"/>
-		<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/CAENHVWrapper.lvlib"/>
+		<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="../CAENHVs/CAEN/labview/CAENHVWrapper/CAENHVWrapper.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -6776,11 +6775,6 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.lvlib"/>
-				<Item Name="CAENHVWrapper.dll" Type="Document" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.dll"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/subvi/Error Converter (ErrCode or Status).vi"/>
-			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -6791,8 +6785,15 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="TopLevelFPGA2.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA2.0.lvbitx"/>
 			<Item Name="CombineSlow.vi" Type="VI" URL="../CombineSlow.vi"/>
 			<Item Name="ArduinoParse.vi" Type="VI" URL="../ArduinoParse.vi"/>
-			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../../../Documents/modudaq-master(march.new) - Copy/FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
 			<Item Name="CAENHV Deinit System.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Deinit System.vi"/>
+			<Item Name="CAENHV Init System.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Init System.vi"/>
+			<Item Name="CAENHV Get Ch Param Prop Info.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Info.vi"/>
+			<Item Name="CAENHV Set Ch Param Single.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Single.vi"/>
+			<Item Name="CAENHV Set Ch Param Bool.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Bool.vi"/>
+			<Item Name="CAENHVWrapper.dll" Type="Document" URL="CAENHVWrapper.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
