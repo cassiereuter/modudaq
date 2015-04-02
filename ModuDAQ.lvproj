@@ -6779,8 +6779,6 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.lvlib"/>
 				<Item Name="CAENHVWrapper.dll" Type="Document" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.dll"/>
-				<Item Name="PARAM_TYPE.ctl" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/Types/PARAM_TYPE.ctl"/>
-				<Item Name="PARAM_MODE.ctl" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/Types/PARAM_MODE.ctl"/>
 				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/subvi/Error Converter (ErrCode or Status).vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -6794,6 +6792,9 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="CombineSlow.vi" Type="VI" URL="../CombineSlow.vi"/>
 			<Item Name="ArduinoParse.vi" Type="VI" URL="../ArduinoParse.vi"/>
 			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../../../Documents/modudaq-master(march.new) - Copy/FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
+			<Item Name="CAENHV Get Ch Param Prop Info.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Info.vi"/>
+			<Item Name="CAENHV Set Ch Param Single.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Single.vi"/>
+			<Item Name="CAENHV Set Ch Param Bool.vi" Type="VI" URL="../../../../../Program Files/CAEN/HV/CAENHVWrapper/labview/CAENHVWrapper/VIs/CAENHV Set Ch Param Bool.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
