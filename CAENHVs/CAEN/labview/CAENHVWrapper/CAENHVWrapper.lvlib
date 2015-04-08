@@ -20,7 +20,7 @@
 		<Item Name="SYSPROP_MODE.ctl" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/Types/SYSPROP_MODE.ctl"/>
 	</Item>
 	<Item Name="CAENHV Init System.vi" Type="VI" URL="../VIs/CAENHV Init System.vi"/>
-	<Item Name="CAENHV Deinit System.vi" Type="VI" URL="../../../../../../../../Desktop/modudaq/CAENHVs/CAEN/labview/CAENHVWrapper/VIs/CAENHV Deinit System.vi"/>
+	<Item Name="CAENHV Deinit System.vi" Type="VI" URL="../VIs/CAENHV Deinit System.vi"/>
 	<Item Name="CAENHV Get Crate Map.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Crate Map.vi"/>
 	<Item Name="CAENHV Test Bd Presence.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Test Bd Presence.vi"/>
 	<Item Name="CAENHV Get Error.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Error.vi"/>
