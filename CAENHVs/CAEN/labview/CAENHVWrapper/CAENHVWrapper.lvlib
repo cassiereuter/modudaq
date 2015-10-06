@@ -21,37 +21,8 @@
 	</Item>
 	<Item Name="CAENHV Init System.vi" Type="VI" URL="../VIs/CAENHV Init System.vi"/>
 	<Item Name="CAENHV Deinit System.vi" Type="VI" URL="../VIs/CAENHV Deinit System.vi"/>
-	<Item Name="CAENHV Get Crate Map.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Crate Map.vi"/>
-	<Item Name="CAENHV Test Bd Presence.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Test Bd Presence.vi"/>
-	<Item Name="CAENHV Get Error.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Error.vi"/>
-	<Item Name="CAENHV Get Exec Comm List.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Exec Comm List.vi"/>
-	<Item Name="CAENHV Exec Comm.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Exec Comm.vi"/>
-	<Item Name="CAENHV Get Bd Param Info.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Info.vi"/>
-	<Item Name="CAENHV Get Bd Param Prop Info.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Prop Info.vi"/>
-	<Item Name="CAENHV Get Bd Param Prop.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Prop.vi"/>
-	<Item Name="CAENHV Get Bd Param Bitfield.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Bitfield.vi"/>
-	<Item Name="CAENHV Get Bd Param Bool.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Bool.vi"/>
-	<Item Name="CAENHV Get Bd Param Single.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Bd Param Single.vi"/>
-	<Item Name="CAENHV Set Bd Param Bitfield.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Bd Param Bitfield.vi"/>
-	<Item Name="CAENHV Set Bd Param Bool.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Bd Param Bool.vi"/>
-	<Item Name="CAENHV Set Bd Param Single.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Bd Param Single.vi"/>
-	<Item Name="CAENHV Get Ch Name.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Name.vi"/>
-	<Item Name="CAENHV Set Ch Name.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Ch Name.vi"/>
-	<Item Name="CAENHV Get Ch Param Info.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Info.vi"/>
 	<Item Name="CAENHV Get Ch Param Prop Info.vi" Type="VI" URL="../VIs/CAENHV Get Ch Param Prop Info.vi"/>
-	<Item Name="CAENHV Get Ch Param Prop Numeric.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Numeric.vi"/>
-	<Item Name="CAENHV Get Ch Param Prop Single.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Single.vi"/>
-	<Item Name="CAENHV Get Ch Param Prop String.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop String.vi"/>
-	<Item Name="CAENHV Get Ch Param Bitfield.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Bitfield.vi"/>
-	<Item Name="CAENHV Get Ch Param Bool.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Ch Param Bool.vi"/>
 	<Item Name="CAENHV Get Ch Param Single.vi" Type="VI" URL="../VIs/CAENHV Get Ch Param Single.vi"/>
-	<Item Name="CAENHV Set Ch Param Bitfield.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Ch Param Bitfield.vi"/>
 	<Item Name="CAENHV Set Ch Param Bool.vi" Type="VI" URL="../VIs/CAENHV Set Ch Param Bool.vi"/>
 	<Item Name="CAENHV Set Ch Param Single.vi" Type="VI" URL="../VIs/CAENHV Set Ch Param Single.vi"/>
-	<Item Name="CAENHV Get Sys Prop Info.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Sys Prop Info.vi"/>
-	<Item Name="CAENHV Get Sys Prop List.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Sys Prop List.vi"/>
-	<Item Name="CAENHV Get Sys Prop String.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Sys Prop String.vi"/>
-	<Item Name="CAENHV Get Sys Prop Numeric.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Get Sys Prop Numeric.vi"/>
-	<Item Name="CAENHV Set Sys Prop String.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Sys Prop String.vi"/>
-	<Item Name="CAENHV Set Sys Prop Numeric.vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/VIs/CAENHV Set Sys Prop Numeric.vi"/>
 </Library>
