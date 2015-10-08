@@ -850,7 +850,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5751\NI5751\1.0.0\NI5751FamClk.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to sixteen analog input channels, eight digital input lines, and eight digital output lines.  This CLIP also contains a SPI interface to program the ADC registers.  
@@ -5502,6 +5502,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Board IO/LEDs;0;ReadMethodType=u8;WriteMethodType=u8Pll UnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/Pll Unlocked;0;ReadMethodType=boolPXI_Clk10NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/CLK10;0;ReadMethodType=boolPXI_StarNumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/STAR;0;ReadMethodType=boolPXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG0;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG1;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG2;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG3;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG4;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG5;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG6;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/TRIG7;0;ReadMethodType=bool;WriteMethodType=boolPXI-7951R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGASample Clock SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolTo DMA FIFO"ControlLogic=1;NumberOfElements=16388;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"To Host FIFO"ControlLogic=0;NumberOfElements=8191;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;To Host FIFO;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\reuterc\Documents\GitHub\modudaq\FPGA Bitfiles\ModuDAQ_FPGATarget_ModuFPGA_QgX3f94CWvQ.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
@@ -5719,11 +5720,41 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 					<Property Name="TargetName" Type="Str">FPGA Target</Property>
 					<Property Name="TopLevelVI" Type="Ref"></Property>
 				</Item>
+				<Item Name="ModuFPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">ModuFPGA</Property>
+					<Property Name="Comp.BitfileName" Type="Str">ModuDAQ_FPGATarget_ModuFPGA_QgX3f94CWvQ.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/reuterc/Documents/GitHub/modudaq/ModuDAQ.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/ModuFPGA.vi</Property>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="slowlibrary.lvlib" Type="Library" URL="../slowlibrary.lvlib"/>
 		<Item Name="hv cluster control.ctl" Type="VI" URL="../hv cluster control.ctl"/>
 		<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="../CAENHVs/CAEN/labview/CAENHVWrapper/CAENHVWrapper.lvlib"/>
+		<Item Name="ModuFPGAtype.ctl" Type="VI" URL="../FPGA Bitfiles/ModuFPGAtype.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -5735,6 +5766,9 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 			<Item Name="CAENHVWrapper.dll" Type="Document" URL="CAENHVWrapper.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -5754,6 +5788,10 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="fWrite Binary.vi" Type="VI" URL="../fWrite Binary.vi"/>
 			<Item Name="sCombine Slow.vi" Type="VI" URL="../sCombine Slow.vi"/>
 			<Item Name="fDisplay Waveform.vi" Type="VI" URL="../fDisplay Waveform.vi"/>
+			<Item Name="niLvFpga_StartFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_StartFifo_PXI-7951R.vi"/>
+			<Item Name="niLvFpga_ConfigureFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_ConfigureFifo_PXI-7951R.vi"/>
+			<Item Name="niLvFpga_Read32_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Read32_PXI-7951R.vi"/>
+			<Item Name="niFpgaRWControlAccessTimeoutTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviReadWriteControl/niFpgaRWControlAccessTimeoutTemplate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
