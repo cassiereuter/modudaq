@@ -5788,10 +5788,53 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="fWrite Binary.vi" Type="VI" URL="../fWrite Binary.vi"/>
 			<Item Name="sCombine Slow.vi" Type="VI" URL="../sCombine Slow.vi"/>
 			<Item Name="fDisplay Waveform.vi" Type="VI" URL="../fDisplay Waveform.vi"/>
-			<Item Name="niLvFpga_StartFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_StartFifo_PXI-7951R.vi"/>
-			<Item Name="niLvFpga_ConfigureFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_ConfigureFifo_PXI-7951R.vi"/>
-			<Item Name="niLvFpga_Read32_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Read32_PXI-7951R.vi"/>
-			<Item Name="niFpgaRWControlAccessTimeoutTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviReadWriteControl/niFpgaRWControlAccessTimeoutTemplate.vi"/>
+			<Item Name="niLvFpga_Close_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Close_PXI-7951R.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="niLvFpga_Open_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Open_PXI-7951R.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
+			<Item Name="StockFPGA_PlugInRead32.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_PlugInRead32.vi"/>
+			<Item Name="niLvFpga_Run_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Run_PXI-7951R.vi"/>
+			<Item Name="Interface_ValueType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/NiFlexRIO Interface/Interface_ValueType.ctl"/>
+			<Item Name="FlexRIO_Host_Attribute.ctl" Type="VI" URL="/&lt;vilib&gt;/FlexRIO/FlexRIO_HostInterface.llb/FlexRIO_Host_Attribute.ctl"/>
+			<Item Name="Interface_QueryAttributeArray_Session.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/NiFlexRIO Interface/Interface_QueryAttributeArray_Session.vi"/>
+			<Item Name="Interface_QueryAttributeArray_U32_Session.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/NiFlexRIO Interface/Interface_QueryAttributeArray_U32_Session.vi"/>
+			<Item Name="nirio_GetLocalizedDictionaryIDs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetLocalizedDictionaryIDs.vi"/>
+			<Item Name="_nirio_IniPathGlobalActionEnum.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/_nirio_IniPathGlobalActionEnum.ctl"/>
+			<Item Name="_nirio_DictionaryDirectoryGlobal.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/_nirio_DictionaryDirectoryGlobal.vi"/>
+			<Item Name="_nirio_GetLVLanguage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/_nirio_GetLVLanguage.vi"/>
+			<Item Name="_nirio_ConvertLVLangToToolsSuffix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/_nirio_ConvertLVLangToToolsSuffix.vi"/>
+			<Item Name="nirio_subCreateDir.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/FileIOVIs/nirio_subCreateDir.vi"/>
+			<Item Name="nirio_MAG_Config Data RefNum.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_MAG_Config Data RefNum.ctl"/>
+			<Item Name="nirio_MAG_Open Config Data.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_MAG_Open Config Data.vi"/>
+			<Item Name="nirio_subSearchRaw.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_subSearchRaw.vi"/>
+			<Item Name="nirio_subReadRaw.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_subReadRaw.vi"/>
+			<Item Name="nirio_MAG_Read Key (String).vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_MAG_Read Key (String).vi"/>
+			<Item Name="nirio_MAG_Close Config Data.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/ConfigFileVIs/nirio_MAG_Close Config Data.vi"/>
+			<Item Name="nirio_GetStringsFromRepositoryWrapper.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringsFromRepositoryWrapper.vi"/>
+			<Item Name="nirio_GetLocalizedStringFromDictionary.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetLocalizedStringFromDictionary.vi"/>
+			<Item Name="nirio_GetStringFromRepository_RioCommonFiles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepository_RioCommonFiles.vi"/>
+			<Item Name="nirio_GetStringFromRepository_cRIO_Targets.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepository_cRIO_Targets.vi"/>
+			<Item Name="nirio_GetStringFromRepository_Modules.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepository_Modules.vi"/>
+			<Item Name="nirio_GetStringFromRepository_Cartridges.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepository_Cartridges.vi"/>
+			<Item Name="nirio_GetStringFromRepository_RSeries.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepository_RSeries.vi"/>
+			<Item Name="nirio_GetStringFromRepositoryPoly.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvrio/LocalizationTools/RioVIs/nirio_GetStringFromRepositoryPoly.vi"/>
+			<Item Name="nirio_ErrorSetSourceField.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_Utility/nirio_ErrorSetSourceField.vi"/>
+			<Item Name="_nirio_device_attributes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_attributes.ctl"/>
+			<Item Name="_nirio_device_handleType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_handleType.ctl"/>
+			<Item Name="_nirio_device_attrGet32.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_attrGet32.vi"/>
+			<Item Name="ViTracer.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/Tools/ViTracer.vi"/>
+			<Item Name="FlexRIO_isFlexRIODevice.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/ClientSDK/Tools/FlexRIO_isFlexRIODevice.vi"/>
+			<Item Name="79XXR_Method_IOModuleStatusImpl.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/FlexRIO/CustomFPGAMethods/79XXR_Method_IOModuleStatusImpl.vi"/>
+			<Item Name="niLvFpga_Reset_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Reset_PXI-7951R.vi"/>
+			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
+			<Item Name="niLvFpga_ReadFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_ReadFifo_PXI-7951R.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
