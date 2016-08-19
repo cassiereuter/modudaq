@@ -6140,7 +6140,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="fDisplay Waveform.vi" Type="VI" URL="../fDisplay Waveform.vi"/>
 			<Item Name="fpgaCount Up.vi" Type="VI" URL="../fpgaCount Up.vi"/>
 			<Item Name="fpgaBit Manipulation.vi" Type="VI" URL="../fpgaBit Manipulation.vi"/>
-			<Item Name="TopLevelFPGA_exttrig2.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA_exttrig2.0.lvbitx"/>
+			<Item Name="TopLevelFPGA_exttrig3.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA_exttrig3.0.lvbitx"/>
 			<Item Name="TopLevelFPGA_exttrig.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA_exttrig.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
