@@ -6464,11 +6464,11 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="fpgaCount Up.vi" Type="VI" URL="../fpgaCount Up.vi"/>
 			<Item Name="fpgaBit Manipulation.vi" Type="VI" URL="../fpgaBit Manipulation.vi"/>
 			<Item Name="fpgaCircular Buffer Address.vi" Type="VI" URL="../fpgaCircular Buffer Address.vi"/>
-			<Item Name="niLvFpga_ConfigureFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_ConfigureFifo_PXI-7951R.vi"/>
-			<Item Name="niLvFpga_StartFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_StartFifo_PXI-7951R.vi"/>
-			<Item Name="niLvFpga_Read32_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Read32_PXI-7951R.vi"/>
 			<Item Name="niFpgaRWControlAccessTimeoutTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviReadWriteControl/niFpgaRWControlAccessTimeoutTemplate.vi"/>
-			<Item Name="TopLevelFPGA_exttrig_fakedata.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA_exttrig_fakedata.lvbitx"/>
+			<Item Name="niLvFpga_Read32_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_Read32_PXI-7951R.vi"/>
+			<Item Name="niLvFpga_StartFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_StartFifo_PXI-7951R.vi"/>
+			<Item Name="niLvFpga_ConfigureFifo_PXI-7951R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXI-7951R/niLvFpga_ConfigureFifo_PXI-7951R.vi"/>
+			<Item Name="TopLevelFPGA_exttrig_fakedata2.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA_exttrig_fakedata2.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
